@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/test")
-public class TestHello {
+public class HelloDemo {
     
     
     @RequestMapping(value = "/hello")
@@ -25,4 +25,5 @@ public class TestHello {
         resMap.put("result","hello word !!!");
         return resMap;
     }
+
 }
